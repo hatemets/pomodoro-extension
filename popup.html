@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>My extension</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1 id="title">Pomodoro timer</h1>
+		<p>sdfasdf</p>
+		<div id="timer">00:00:00</div>
+		<div class="wrapper">
+			<label for="work">Working duration</label>
+			<input type="number" value="25" name="work" id="work" min="1" />
+		</div>
+		<div class="wrapper">
+			<label for="break">Break duration</label>
+			<input type="number" value="5" name="break" id="break" min="1" />
+		</div>
+		<button id="start" class="btn">Start</button>
+		<button id="pause" class="btn">Pause</button>
+		<button id="stop" class="btn">Stop</button>
+		<script src="popup.js"></script>
+	</body>
+</html>
